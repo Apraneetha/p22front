@@ -9,7 +9,7 @@ import { LoginCredentials } from '../Model/login-credentials';
 })
 export class GeneralService {
 
-  base_url = "https://4.242.92.100:8082/";
+  base_url = "http://4.242.92.100:8082/";
   constructor(private http: HttpClient) {   }
 
   public getUser(userId:number):Observable <any>{
